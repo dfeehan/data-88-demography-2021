@@ -1,4 +1,4 @@
-test = {   'name': 'mf_compare_test',
+test = {   'name': 'q_mf_compare_test',
     'points': 1,
     'suites': [   {   'cases': [   {   'code': ">>> ca_compare_dx['Males'][3] "
                                                '== 14\n'

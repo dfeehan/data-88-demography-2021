@@ -1,4 +1,4 @@
-test = {   'name': 'load_lt',
+test = {   'name': 'q_load_lt',
     'points': 1,
     'suites': [   {   'cases': [   {   'code': '>>> test_lt.num_rows == 110\n'
                                                'True',

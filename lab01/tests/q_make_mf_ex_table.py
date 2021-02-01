@@ -1,4 +1,4 @@
-test = {   'name': 'make_mf_ex_table',
+test = {   'name': 'q_make_mf_ex_table',
     'points': 1,
     'suites': [   {   'cases': [   {   'code': '>>> '
                                                "math.isclose(ca_lt_ex['Males'][3], "

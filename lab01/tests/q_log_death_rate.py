@@ -1,4 +1,4 @@
-test = {   'name': 'log_death_rate',
+test = {   'name': 'q_log_death_rate',
     'points': 1,
     'suites': [   {   'cases': [   {   'code': '>>> '
                                                "math.isclose(ca_f_lt['logmx'][0], "
