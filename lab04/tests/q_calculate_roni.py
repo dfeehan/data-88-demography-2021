@@ -1,0 +1,10 @@
+test = {   'name': 'q_calculate_roni',
+    'points': 5,
+    'suites': [   {   'cases': [   {'code': ">>> np.isclose(unpd_roni_1990.where('area', 'Kenya').column('cdr')[0], 10.323, atol=.1)\nTrue", 'hidden': False, 'locked': False},
+                                   {'code': ">>> np.isclose(unpd_roni_1990.where('area', 'Kenya').column('roni')[0], 3.4805999999999999, atol=.1)\nTrue", 'hidden': False, 'locked': False},
+                                   {'code': ">>> np.isclose(unpd_roni_1990.where('area', 'France').column('roni')[0], 0.38499999999999995, atol=.1)\nTrue", 'hidden': False, 'locked': False},
+                                   {'code': ">>> np.isclose(unpd_roni_1990.where('area', 'France').column('cbr')[0], 13.567, atol=.1)\nTrue", 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
