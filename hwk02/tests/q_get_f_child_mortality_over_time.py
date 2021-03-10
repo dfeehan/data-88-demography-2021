@@ -1,0 +1,10 @@
+test = {   'name': 'q_get_f_child_mortality_over_time',
+    'points': 4,
+    'suites': [   {   'cases': [   {'code': ">>> np.isclose(np.round(np.min(swe_5q0.column('child_mort')), 6), 0.0025530, atol=.01)\nTrue", 'hidden': False, 'locked': False},
+                                   {'code': ">>> np.isclose(np.round(np.max(swe_5q0.column('child_mort')), 6), 0.020552, atol=.01)\nTrue", 'hidden': False, 'locked': False},
+                                   {'code': ">>> np.min(swe_5q0.column('period')) == 1955\nTrue", 'hidden': False, 'locked': False},
+                                   {'code': ">>> np.max(swe_5q0.column('period')) == 2015\nTrue", 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}

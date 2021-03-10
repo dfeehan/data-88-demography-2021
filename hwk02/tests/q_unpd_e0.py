@@ -1,0 +1,10 @@
+test = {   'name': 'q_unpd_e0',
+    'points': 2,
+    'suites': [   {   'cases': [   {   'code': ">>> np.isclose(unpd_e0.where('area', 'Germany').where('period', 1965).where('sex', 'female').column('e')[0],72.562783999999994,atol=.01)\nTrue",
+                                       'hidden': False,
+                                       'locked': False},
+                                   {'code': '>>> unpd_e0.num_rows == 5226\nTrue', 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
