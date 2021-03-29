@@ -1,0 +1,10 @@
+test = {   'name': 'q_in_migrants_join',
+    'points': 4,
+    'suites': [   {   'cases': [   {'code': ">>> in_migrants.where('fips', 17031).column('pop_2015').item(0) == 5245831\nTrue", 'hidden': False, 'locked': False},
+                                   {   'code': ">>> in_migrants.where('county_name', 'DeKalb County').where('state', 'IL').column('num_in_migrants').item(0) == 2570\nTrue",
+                                       'hidden': False,
+                                       'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
