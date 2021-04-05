@@ -1,0 +1,12 @@
+test = {   'name': 'q_standardize_voting_rate',
+    'points': 6,
+    'suites': [   {   'cases': [   {   'code': ">>> np.isclose(voting_2016_age_standardized.where('state', 'FLORIDA')['std_pct_citizen_voted'][0], 58.321906338842204, atol=.001) \nTrue",
+                                       'hidden': False,
+                                       'locked': False},
+                                   {   'code': ">>> np.isclose(voting_2016_age_standardized.where('state', 'CALIFORNIA')['std_pct_citizen_voted'][0], 58.3671, atol=.001) \nTrue",
+                                       'hidden': False,
+                                       'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
